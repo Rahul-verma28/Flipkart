@@ -1,0 +1,170 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.all {
+    display: flex;
+    background-color:#2874f0;
+    width: 100vw;
+    position: fixed;
+}
+
+ul {
+    display: flex;
+    align-items: center;
+    list-style: none;
+}
+
+ul li a {
+    margin: 10px;
+    list-style: none;
+    text-decoration: none;
+    color: aliceblue;
+}
+
+ul li a:hover {
+    font-weight: bold;
+}
+
+
+.Flipcart {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    font-size: 1.5em;
+    margin: 0 10px;
+    color: azure;
+    font-weight: bold;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.search  {
+    display: inline-flex;
+    margin: 10px 0px 10px 30px;
+}
+input{
+    width: 25vw;
+    height: 20px;
+    margin: 10px 0px 10px 30px;
+}
+
+.searchButton {
+    padding: 2px 5px;
+    margin: 10px;
+    background-color: #2874f0;
+    color: aliceblue;
+    border: 2px solid white;
+    border-radius: 7px;
+}
+
+.container {
+    max-width: 100vw;
+    min-height: auto;
+}
+
+.main{
+    justify-content: center;
+    display: flex;
+    overflow-clip-margin: content-box;
+}   
+
+.main1{
+        width: 60vw;
+        height: 60vh;
+}
+
+.nameofitems{
+    margin: 2vh 5vh ;
+    font-size: 2em  ;
+}
+
+.card{
+    display: inline-flex;
+    margin: 10px;
+    padding-left: 10px;
+    width: auto;
+}
+
+.card1 {
+    display: inline-block;
+    overflow: hidden;
+}
+
+.cardimage{
+    width: 30vh;
+}
+
+.carditem {
+    text-align: center;
+    padding: 10px;
+    font-weight: bold;
+}
+
+.card1 .searchButton{
+    padding: 5px 10px;
+}
+
+.footerslide{
+    height: 70vh;
+}
+
+.allfooter{
+    display: grid;
+    height: auto;
+    grid-template-columns: auto auto ;
+    color: rgba(0, 0, 0, 0.519);
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+.instruction{
+    text-align: center;
+    margin: 20px;
+    /* width: 40vw; */
+}
+
+.text-uppercase{
+    font-size: 2rem;
+    margin: 5px;
+}
+
+.section4{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    padding: 20px;
+    justify-content: space-around;
+    background-color: rgb(225, 230, 234);
+    height: auto;
+}
+
+.part{
+    line-height: 5vh;
+    letter-spacing: 0.1rem;
+    
+
+}
+
+.aboutus{
+    display: inline;
+    /* text-align: right; */
+    border: 2px solid black;
+}
+
+.socialmediaicons{
+    width: 2vw;
+    border-radius: 200px;
+    line-height: -2px;
+}
+
+.playstore{
+    width: 30vh;
+}
+
+footer {
+    height: 10vh;
+    background-color: #181d24e1;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
